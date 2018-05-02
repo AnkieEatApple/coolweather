@@ -25,6 +25,6 @@ public class Weather {
 
     public Suggestion suggestion;
 
-    @SerializedName("daily_forecast")
+    @SerializedName("forecast")
     public List<Forecast> forecastList;
 }
